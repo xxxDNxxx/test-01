@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Register</title>
+    <link rel="stylesheet" href="./node_modules/bulma/css/bulma.css">
+    <link rel="stylesheet" href="Register.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+  </head>
+  <body>
+    <section class="hero is-primary">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">
+        Register
+      </h1>
+    </div>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+  <div class="field">
+  <label class="label">Name</label>
+  <div class="control">
+    <input class="input" type="text" placeholder="Name">
+  </div>
+</div>
+<div class="control has-icons-left has-icons-right">
+  <label class="label">Email</label>
+  <form name="emailform">
+    <input class="input" type="email" placeholder="Email" name="email">
+  </form>
+  <span class="icon is-small is-left">
+    <i class="fas fa-envelope"></i>
+  </span>
+</div>
+<div class="field">
+<label class="label">Tel.</label>
+<div class="control">
+  <input class="input" type="text" placeholder="Tel">
+</div>
+</div>
+<label class="label">Sex</label>
+<div class="select">
+  <select>
+    <option>Male</option>
+    <option>Female</option>
+  </select>
+</div>
+  <div class="field">
+    <label class="label">Username</label>
+    <div class="control has-icons-left has-icons-right">
+      <input class="input" type="text" placeholder="Username" >
+      <span class="icon is-small is-left">
+        <i class="fas fa-user"></i>
+      </span>
+    </div>
+  </div>
+
+
+<label class="label">Password</label>
+<div class="field">
+  <form name="pass">
+    <input class="input" type="password" placeholder="Password">
+  </form>
+</div>
+<label class="label">Confirm Password</label>
+<div class="field">
+  <form name="conpass">
+    <input class="input" type="password" placeholder="Password">
+  </form>
+</div>
+<div class="field">
+  <button class="button">Submit</button>
+</div>
+  </div>
+  </div>
+
+</section>
+  </body>
+</html>

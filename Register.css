@@ -1,0 +1,15 @@
+.input{
+  width: 25%;
+  left: 30%;
+}
+.label{
+  margin-left: 30%;
+}
+.select{
+  left: 30%;
+}
+.button{
+  background-color: rgb(74, 29, 182);
+  color: rgb(255, 255, 255);
+  left: 30%;
+}
